@@ -10,7 +10,7 @@ if (width <= 500) {
 }
 const content = [
 {
-  contentL2: "小兔子",
+  contentL2: "小糖水",
   contentL3:
   "奶茶喝不完 完全喝不完~",
   src:
@@ -24,9 +24,9 @@ const content = [
   "./img/5.jpg" },
 
 {
-  contentL2: "老艺术家",
+  contentL2: "星黛露",
   contentL3:
-  "为了方便只做三条板凳腿，还不一样粗细长度，就插进地里",
+  "这个是兔子",
   src:
   "./img/6.jpg" },
 
@@ -152,7 +152,7 @@ const Page = ({ data, index, setActive, gone = false }) => {
 
     React.createElement("div", { id: `header${index}`, className: "header" }, /*#__PURE__*/
     React.createElement("div", null, "新年快乐"), /*#__PURE__*/
-    React.createElement("div", { className: `skip text${index}` }, "2024")), /*#__PURE__*/
+    React.createElement("div", { className: `skip text${index}` }, "2025")), /*#__PURE__*/
 
     React.createElement("img", { alt: `img${index}`, src: src }), /*#__PURE__*/
     React.createElement("div", { id: "content" }, /*#__PURE__*/
